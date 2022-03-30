@@ -25,5 +25,4 @@ defmodule M do
     {weight, height, name} = {175, 6.25, :Pedro}
     IO.puts "Weight: #{(weight)}"
   end
- #c("elixirtut.ex")
 end

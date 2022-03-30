@@ -28,5 +28,4 @@ defmodule M do
     IO.puts "Vote and Drive: #{(age >= 16) and (age >= 18)}"
     IO.puts "Vote and Drive: #{(age >= 16) or (age >= 18)}"
   end
- #c("elixirtut.ex")
 end

@@ -23,5 +23,4 @@ defmodule M do
 
     IO.puts "Substring: #{String.slice(my_str, 3, 6)}"
   end
-
 end

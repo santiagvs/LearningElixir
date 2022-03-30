@@ -14,5 +14,4 @@ defmodule M do
 
     IO.puts "Ternary: #{if age > 18, do: "Can Vote", else: "Can't vote"}"
   end
- #c("elixirtut.ex")
 end
