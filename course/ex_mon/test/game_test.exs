@@ -78,7 +78,7 @@ defmodule ExMon.GameTest do
       }
 
       Game.update(new_state)
-      
+
       expected_response = %{new_state | turn: :computer, status: :continue}
 
       assert expected_response == Game.info()
@@ -105,7 +105,7 @@ defmodule ExMon.GameTest do
       Game.start(computer, player)
 
       Game.info()
-      assert Game.turn() == Map.get(Game.info(), :turn)     
+      assert Game.turn() == Map.get(Game.info(), :turn)
     end
   end
 
